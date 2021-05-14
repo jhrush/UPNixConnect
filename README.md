@@ -6,7 +6,7 @@ The primary goal of UPNixConnect is to faciltate the use of .rdp connections wit
 
 Note: These scripts were created with Linux Mint 20 in mind. It should work on most Debian/Ubuntu based distros.
 
-Install freerdp prior to running these scripts and have a directory ~/Downloads.
+Install freerdp prior to running these scripts and validate that directory ~/Downloads exists prior to use.
 
 The shell scripts may have to be adapted for other Linux distros or configurations.
 
@@ -21,7 +21,7 @@ You can run the menu entry or enter the command upcon after downloading an .rdp 
 
 This will rename the latest .rdp file downloaded to currentsession.rdp. Then it will connect via freerdp with intuitive flags as listed in the file upcon.
 
-The goal of this project is to prevent the users ~/Downloads folder from becoming filled with .rdp files from various sessions.
+Another goal of this project is to prevent the users ~/Downloads folder from becoming filled with .rdp files from various sessions.
 
 It also somewhat automates the task of connecting to a remote machine.
 
