@@ -5,7 +5,7 @@
 
 The primary goal of UPNixConnect is to automate and organize the use of .rdp connections with use of a yubikey smartcard readers on linux!
 
-Another goal of this project is to prevent the users ~/Downloads folder from becoming filled with .rdp files from various sessions.
+Another goal of this project is to prevent the users' ~/Downloads folder from becoming filled with .rdp files from various sessions.
 
 It also somewhat automates the task of connecting to a remote machine.
 
