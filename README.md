@@ -6,13 +6,13 @@ The primary goal of UPNixConnect is to faciltate the use of .rdp connections wit
 
 Note: These scripts were created with Linux Mint 20 in mind. It should work on most Debian/Ubuntu based distros.
 
-Install freerdp prior to running these scripts.
+Install freerdp prior to running these scripts and have a directory ~/Downloads.
 
 The shell scripts may have to be adapted for other Linux distros or configurations.
 
 The project is dependent on freerdp and having a ~/Downloads folder!
 
-Please install freerdp prior to running.
+**Please install freerdp prior to running.**
 
 If all the dependencies are met. Simply run the installer and a menu entry called UP should appear.
 
