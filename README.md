@@ -8,7 +8,7 @@ Another goal of this project is to prevent the users ~/Downloads folder from bec
 
 It also somewhat automates the task of connecting to a remote machine.
 
-##Requirements:
+## Requirements:
 
 Note: These scripts were created with Linux Mint 20 in mind. It should work on most Debian/Ubuntu based distros.
 
