@@ -1,7 +1,7 @@
-#UPNixConnect
+# UPNixConnect
 
 
-##Primary Goal:
+## Primary Goal:
 The primary goal of UPNixConnect is to faciltate the use of .rdp connections with use of a yubikey smartcard reader.
 
 Note: These scripts were created with Linux Mint 20 in mind. It should work on most Debian/Ubuntu based distros.
@@ -25,7 +25,7 @@ Another goal of this project is to prevent the users ~/Downloads folder from bec
 
 It also somewhat automates the task of connecting to a remote machine.
 
-##Additional Guides:
+## Additional Guides:
 
 Also note that yubico-piv-tool will need to be installed for smartcard use.
 
