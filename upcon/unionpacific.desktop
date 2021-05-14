@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Exec=upcon
+Icon=Union_Pacific
+Type=Application
+Terminal=false
+Comment=Freerdp connection to UP
+Name=UP
+GenericName=UP
+StartupNotify=false
+Categories=Network;
