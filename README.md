@@ -4,6 +4,12 @@
 ## Primary Goal:
 The primary goal of UPNixConnect is to automate and organize the use of .rdp connections with use of a yubikey smartcard readers on linux!
 
+Another goal of this project is to prevent the users ~/Downloads folder from becoming filled with .rdp files from various sessions.
+
+It also somewhat automates the task of connecting to a remote machine.
+
+##Requirements:
+
 Note: These scripts were created with Linux Mint 20 in mind. It should work on most Debian/Ubuntu based distros.
 
 Install freerdp prior to running these scripts and validate that directory '~/Downloads' exists prior to use.
@@ -21,9 +27,6 @@ You can run the menu entry or enter the command upcon after downloading an .rdp 
 
 This will rename the latest .rdp file downloaded to currentsession.rdp. Then the script will connect via freerdp with intuitive flags as listed in the file upcon.
 
-Another goal of this project is to prevent the users ~/Downloads folder from becoming filled with .rdp files from various sessions.
-
-It also somewhat automates the task of connecting to a remote machine.
 
 ## Additional Guides:
 
