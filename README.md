@@ -25,6 +25,7 @@ Another goal of this project is to prevent the users ~/Downloads folder from bec
 
 It also somewhat automates the task of connecting to a remote machine.
 
+**Additional Guides:**
 
 Also note that yubico-piv-tool will need to be installed for smartcard use.
 
@@ -34,6 +35,4 @@ Simply install yubico-piv-tool by following directions.
 
 In your preferred browser specify the libykcs11.so located at /usr/lib/libykcs11.so as a security device.
 
-Guides to do this are located at:
-
-For Firefox: https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSS/PKCS11/Module_Installation
+Guide for Firefox: https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSS/PKCS11/Module_Installation
