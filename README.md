@@ -2,7 +2,7 @@
 
 
 ## Primary Goal:
-The primary goal of UPNixConnect is to automate and organize the use of .rdp connections with use of a yubikey smartcard reader on linux distros.
+The primary goal of UPNixConnect is to automate and organize the use of .rdp connections with use of a yubikey smartcard readers on linux!
 
 Note: These scripts were created with Linux Mint 20 in mind. It should work on most Debian/Ubuntu based distros.
 
