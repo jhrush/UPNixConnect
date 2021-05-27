@@ -31,12 +31,17 @@ This will rename the latest .rdp file downloaded to currentsession.rdp. Then the
 
 ## Additional Guides:
 
-Also note that yubico-piv-tool will need to be installed for smartcard use.
+Also note that yubico-piv-tool and libpam-yubico will need to be installed for smartcard use.
 
 It is found at: https://developers.yubico.com/yubico-piv-tool/Releases/
 
 Simply install yubico-piv-tool by following directions.
 
-In your preferred browser specify the libykcs11.so located at /usr/lib/libykcs11.so as a security device.
+If available in your distro's repo simply issue
+
+> sudo apt install yubico-piv-tool
+> sudo apt install libpam-yubico
+
+In your preferred browser specify the libykcs11.so located at /usr/local/lib/libykcs11.so as a security device.
 
 Guide for Firefox: https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSS/PKCS11/Module_Installation
