@@ -1,3 +1,5 @@
+#!/bin/bash
+
 cd ~/Downloads
 winState=selectedmonitors:s:1
 pinState=pinconnectionbar:i:0
@@ -9,4 +11,6 @@ echo "$winState" >> "$rdp"
 echo "$pinState" >> "$rdp"
 printf "$winFullPinState" >> "$rdp"
 mv "$rdp" "currentsession.rdp"
+#xfreerdp "currentsession.rdp" /sound /microphone /floatbar /dynamic-resolution /t:"Union Pacific"
 xfreerdp "currentsession.rdp" /floatbar /dynamic-resolution /t:"Union Pacific"
+
