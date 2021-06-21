@@ -11,6 +11,8 @@ echo "$winState" >> "$rdp"
 echo "$pinState" >> "$rdp"
 printf "$winFullPinState" >> "$rdp"
 mv "$rdp" "currentsession.rdp"
-#xfreerdp "currentsession.rdp" /sound /microphone /floatbar /dynamic-resolution /t:"Union Pacific"
-xfreerdp "currentsession.rdp" /floatbar /dynamic-resolution /t:"Union Pacific"
-
+if [[ $1 == withSound ]]; then
+	xfreerdp "currentsession.rdp" /sound /microphone /floatbar /dynamic-resolution /t:"Union Pacific (Mic/Sound)"
+else
+	xfreerdp "currentsession.rdp" /sound /floatbar /dynamic-resolution /t:"Union Pacific"
+fi

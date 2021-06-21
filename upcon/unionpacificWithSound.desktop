@@ -1,6 +1,6 @@
 [Desktop Entry]
 Encoding=UTF-8
-Exec=upconExtra
+Exec=upcon withSound
 Icon=Union_Pacific
 Type=Application
 Terminal=false
