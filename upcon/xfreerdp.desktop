@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Exec=xfreerdp
+Icon=Union_Pacific
+Type=Application
+Terminal=false
+Comment=xfreerdp
+Name=xfreerdp
+GenericName=xfreerdp
+StartupNotify=false
+Categories=Network;
