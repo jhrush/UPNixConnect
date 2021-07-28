@@ -16,3 +16,4 @@ if [[ $1 == withSound ]]; then
 else
 	xfreerdp "currentsession.rdp" /sound /floatbar /dynamic-resolution /t:"Union Pacific"
 fi
+pkill -f https://e.vpn.uprr.com
