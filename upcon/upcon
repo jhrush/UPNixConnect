@@ -1,4 +1,5 @@
 #!/bin/bash
+kill -9 $(ps aux | grep -e e.vpn.uprr.com | awk '{ print $2 }')
 
 cd ~/Downloads
 winState=selectedmonitors:s:1
@@ -16,4 +17,3 @@ if [[ $1 == withSound ]]; then
 else
 	xfreerdp "currentsession.rdp" /sound /floatbar /dynamic-resolution /t:"Union Pacific"
 fi
-kill -9 $(ps aux | grep -e e.vpn.uprr.com | awk '{ print $2 }')
