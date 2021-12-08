@@ -40,6 +40,7 @@ Simply install yubico-piv-tool by following directions.
 If available in your distro's repo simply issue
 
 > sudo apt install yubico-piv-tool
+
 > sudo apt install libpam-yubico
 
 In your preferred browser specify the libykcs11.so located at /usr/local/lib/libykcs11.so as a security device.
