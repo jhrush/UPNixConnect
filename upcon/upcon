@@ -1,5 +1,6 @@
 #!/bin/bash
-kill -9 $(ps aux | grep -e e.vpn.uprr.com | awk '{ print $2 }')
+#Kills citrix browser window, only use if e.vpn.uppr.com is launched as a webapp!
+#kill -9 $(ps aux | grep -e e.vpn.uprr.com | awk '{ print $2 }')
 
 cd ~/Downloads
 winState=selectedmonitors:s:1
