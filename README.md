@@ -45,7 +45,7 @@ If available in your distro's repo simply issue
 
 In your preferred browser specify the libykcs11.so located at /usr/local/lib/libykcs11.so as a security device.
 
-Edit for Ubuntu 20:
+Location for Ubuntu 20:
 
 >/usr/lib/security/pam_yubico.so
 
