@@ -45,4 +45,7 @@ If available in your distro's repo simply issue
 
 In your preferred browser specify the libykcs11.so located at /usr/local/lib/libykcs11.so as a security device.
 
+Edit:
+/usr/lib/security/pam_yubico.so
+
 Guide for Firefox: https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSS/PKCS11/Module_Installation
