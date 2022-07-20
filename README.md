@@ -43,6 +43,16 @@ If available in your distro's repo simply issue
 
 > sudo apt install libpam-yubico
 
+# For Ubuntu based 20.04 package base (and likely later)
+
+> sudo apt install ykcs11
+
+> sudo updatedb
+
+> locate libykcs11
+
+Use libykcs11.so as the security device in Firefox or preferred browser.
+
 In your preferred browser specify the libykcs11.so located at /usr/local/lib/libykcs11.so as a security device.
 
 Guide for Firefox: https://developer.mozilla.org/en-US/docs/Mozilla/Projects/NSS/PKCS11/Module_Installation
