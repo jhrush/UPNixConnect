@@ -43,7 +43,7 @@ If available in your distro's repo simply issue
 
 > sudo apt install libpam-yubico
 
-# For Ubuntu based 20.04 package base (and likely later)
+### For Ubuntu based 20.04 package base (and likely later)
 
 > sudo apt install ykcs11
 
